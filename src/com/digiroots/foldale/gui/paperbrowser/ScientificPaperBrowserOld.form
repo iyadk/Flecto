@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.8" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="com.digiroots.foldale.gui.paperbrowser.Toc" name="toc1">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane2" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="abstract1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="toc2" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jPanel1" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jScrollPane2" min="-2" pref="119" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="abstract1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="toc2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JEditorPane" name="jEditorPane1">
+          <Properties>
+            <Property name="contentType" type="java.lang.String" value="text/html" noResource="true"/>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xd;&#xa;  &lt;head&gt;&#xd;&#xa;    &lt;style type=&quot;text/css&quot;&gt;&#xd;&#xa;      &lt;!--&#xd;&#xa;        #header { font-weight: normal; font-size: 16pt }&#xd;&#xa;        #authors { font-size: 12pt }&#xd;&#xa;        #hearer { font-weight: bold }&#xd;&#xa;      --&gt;&#xd;&#xa;    &lt;/style&gt;&#xd;&#xa;    &#xd;&#xa;  &lt;/head&gt;&#xd;&#xa;  &lt;body&gt;&#xd;&#xa;&#xa;&#xd;&#xa;    &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&#xd;&#xa;      &lt;head&gt;&#xd;&#xa;        &lt;style type=&quot;text/css&quot;&gt;&#xd;&#xa;          &lt;!--&#xd;&#xa;            #header { font-weight: normal; font-size: 16pt }&#xd;&#xa;            #authors { font-size: 12pt }&#xd;&#xa;            #hearer { font-weight: bold }&#xd;&#xa;          --&gt;&#xd;&#xa;        &lt;/style&gt;&#xd;&#xa;        &lt;meta http-equiv=&quot;content-type&quot; content=&quot;application/xhtml+xml; charset=utf-8&quot;&gt;&#xd;&#xa;        &lt;title&gt;c:\u005cOrigamiProjects\u005cheader&lt;/title&gt;&#xd;&#xa;        &#xd;&#xa;      &lt;/head&gt;&#xd;&#xa;      &lt;body&gt;&#xd;&#xa;        &lt;p align=&quot;center&quot;&gt;&#xd;&#xa;          &lt;b&gt;&lt;span id=&quot;header&quot;&gt;&lt;font face=&quot;Arial&quot;&gt;Similating Foldable User &#xd;&#xa;          Interfaces Using Origami&lt;/font&gt;&lt;/span&gt;&lt;/b&gt;&#xd;&#xa;        &lt;/p&gt;&#xd;&#xa;        &lt;p align=&quot;center&quot;&gt;&#xd;&#xa;          &lt;b&gt;&lt;span id=&quot;authors&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Iyad &#xd;&#xa;          Khaddam&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160; Jean Vanderdonckt&lt;/font&gt;&lt;/span&gt;&lt;/b&gt;&#xd;&#xa;        &lt;/p&gt;&#xd;&#xa;        &lt;p align=&quot;center&quot;&gt;&#xd;&#xa;          &lt;b&gt;&lt;span&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Universit&amp;#233; catholique de &#xd;&#xa;          Louvain&lt;br&gt;B-1348 Louvain-la-Neuve (Belgium)&lt;br&gt;E-mails&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/b&gt;&#xd;&#xa;        &lt;/p&gt;&#xd;&#xa;      &lt;/body&gt;&#xd;&#xa;    &lt;/html&gt;&#xd;&#xa;  &lt;/body&gt;&#xd;&#xa;&lt;/html&gt;&#xd;&#xa;" containsInvalidXMLChars="true"/>
+            <Property name="page" type="java.net.URL" editor="org.netbeans.beaninfo.editors.URLEditor">
+              <Url value="file:/C:/OrigamiProjects/header.html"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="com.digiroots.foldale.gui.paperbrowser.Abstract" name="abstract1">
+    </Component>
+    <Component class="com.digiroots.foldale.gui.paperbrowser.Toc" name="toc2">
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="pageBrowser" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="pageBrowser" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="29" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="com.digiroots.foldale.gui.paperbrowser.WebBrowserPanel" name="pageBrowser">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="529" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="363" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

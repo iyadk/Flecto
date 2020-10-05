@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<key id="vertex_label_key" for="node" attr.name="Vertex Label" attr.type="string"/>
+<key id="edge_label_key" for="edge" attr.name="Edge Label" attr.type="string"/>
+<graph edgedefault="directed">
+<node id="1">
+<data key="vertex_label_key">GraphNode{name=node1, label=label1, type = type1}</data>
+</node>
+<node id="2">
+<data key="vertex_label_key">GraphNode{name=node2, label=label2, type = type1}</data>
+</node>
+<edge id="1" source="1" target="2">
+<data key="edge_label_key">(GraphNode{name=node1, label=label1, type = type1} : GraphNode{name=node2, label=label2, type = type1})</data>
+</edge>
+</graph>
+</graphml>
